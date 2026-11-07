@@ -1,0 +1,13 @@
+name: CustomEnchants
+version: 1.0.0
+main: me.customenchants.CustomEnchants
+api-version: '1.21'
+description: Кастомные зачарования (бур, автоплавка, лесоруб и др.)
+commands:
+  cench:
+    description: Управление кастомными зачарованиями
+    usage: /cench <list|give|remove|vanilla>
+permissions:
+  customenchants.admin:
+    description: Выдавать и снимать зачарования
+    default: op
